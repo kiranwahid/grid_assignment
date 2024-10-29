@@ -25,3 +25,143 @@ body {
     text-wrap: balance;
   }
 }
+
+/* 
+.container{
+  width: 90%;
+  height:300px;
+  margin: auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr  1fr;
+  grid-template-rows: 100px 200px 200px 100px;
+}
+.item{
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #171717;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.header{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: greenyellow;
+
+
+}
+.sidebar{
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: lightblue;
+
+}
+
+.item3{
+
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-color: lightgreen;
+}
+
+.item4{
+
+  background-color: lightpink;
+}
+
+
+.item5{
+
+  background-color: lightgray;
+}
+.item6{
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: palevioletred;
+
+  
+} */
+
+body{
+  background-image: url(public/css.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+
+.container{
+
+  width: 90%;
+  margin: auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 0.2fr 0.6fr  0.2fr;
+  grid-template-rows: 100px 200px 200px 200px  100px;
+
+}
+.item{
+
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #171717;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+.header{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  /* background-color: greenyellow; */
+
+
+}
+.sidebar{
+  grid-row-start: 2;
+  grid-row-end: 6;
+  /* background-color: lightblue; */
+
+}
+
+.item3{
+
+  grid-row-start: 2;
+  grid-row-end: 5;
+  /* background-color: lightgreen; */
+}
+
+.item4{
+
+  grid-row-start: 2;
+  grid-row-end: 5;
+
+  /* background-color: lightpink; */
+}
+
+
+
+.item6{
+
+  grid-column-start: 2;
+  grid-column-end: 4;
+  /* background-color: palevioletred; */
+
+  
+}
